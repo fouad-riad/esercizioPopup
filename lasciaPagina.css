@@ -1,0 +1,59 @@
+a#lascia-pagina {
+  text-decoration: none;
+  background-color: coral;
+  display: inline-block;
+  border: 2px dashed black;
+  text-transform: uppercase;
+  padding: 20px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+a#lascia-pagina:hover {
+  box-shadow: 0 0 5px coral;
+  border-style: solid;
+}
+
+.popup-lascia-pagina-container {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255);
+  /* display: none; */
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.popup-lascia-pagina {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(14, 222, 222);
+  padding: 20px;
+  background-color: rgba(127, 255, 212, 0.25);
+  text-align: center;
+}
+
+.popup-lascia-pagina-titolo {
+  color: #333333d8;
+  margin-top: 0;
+}
+
+.popup-lascia-pagina button[class^="popup"] {
+  display: inline-block;
+  padding: 10px;
+  font-weight: 700;
+  border: 1px solid rgb(14, 222, 222);
+  border-radius: 3px;
+  cursor: pointer;
+  min-width: 80px;
+  text-align: center;
+  /* font-size: 20px; */
+}
+
+/* div[title="pippo"] */
